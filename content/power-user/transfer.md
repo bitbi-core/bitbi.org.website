@@ -19,7 +19,7 @@ carry some other form of action (key revocation, casting a vote etc).
 
 ### Creating an invoice
 
-In RGB, invoicing is much more general than just an invoice for a certain amount
+In BTB, invoicing is much more general than just an invoice for a certain amount
 of tokens. In fact, you can pack any request for any contract operation, under
 any possible schema and interface in form of invoice: revoking identity, voting
 in DAO, performing secondary asset issuance, creating NFT engraving and so on,
@@ -28,7 +28,7 @@ so on.
 To construct an invoice one have to run the following command:
 
 ```sh
-$ rgb invoice $CONTRACT -i $INTERFACE -a $ACTION $STATE $SEAL
+$ btb invoice $CONTRACT -i $INTERFACE -a $ACTION $STATE $SEAL
 ```
 
 Here:
@@ -56,16 +56,16 @@ alice$ CONTRACT=DirectDetectEqual0EKkb7TMfbPxzn7UhvXqhoCutzdZkSZCNYxVAVjsA67fW
 
 alice$ MY_UTXO=4960acc21c175c551af84114541eace09c14d3a1bb184809f7b80916f57f9ef8:1
 
-alice$ rgb invoice $CONTRACT -i RGB20 100 $MY_UTXO
+alice$ btb invoice $CONTRACT -i RGB20 100 $MY_UTXO
 ```
 
 The result of this commands would be an invoice printed to `STDOUT`:
 ```
-rgb:DirectDetectEqual0EKkb7TMfbPxzn7UhvXqhoCutzdZkSZCNYxVAVjsA67fW
+btb:DirectDetectEqual0EKkb7TMfbPxzn7UhvXqhoCutzdZkSZCNYxVAVjsA67fW
 /RGB20/100@6kzbKKffP6xftkxn9UP8gWqiC41W16wYKE5CYaVhmEve
 ```
 
-To learn more about invoices please refer to [RGB FAQ Website](https://rgbfaq.com/concepts/invoices)
+To learn more about invoices please refer to [BTB FAQ Website](https://rgbfaq.com/concepts/invoices)
 
 
 ### Performing transfer
@@ -76,27 +76,27 @@ construct, sign and publish normal bitcoin transactions (we will represent
 this tool with a `wallet` command).
 
 At the first stage, Bob constructs PSBT file, which must spend outputs
-containing sufficient amount of RGB assets, plus an output to store a change.
+containing sufficient amount of BTB assets, plus an output to store a change.
 We assume that Bob saves PSBT to `tx.psbt` file.
 
 Now, Bob can pay Alice's invoice (which he saved to `$INVOICE` variable) with
 the following command:
 
 ```sh
-bob$ rgb transfer tx.psbt $INVOICE consignment.rgb
+bob$ btb transfer tx.psbt $INVOICE consignment.btb
 ```
 
-The result transfer consignment will be stored to `consignment.rgb` file in a
+The result transfer consignment will be stored to `consignment.btb` file in a
 binary form. Bob should send this file to Alice by some third-party means - this
-can be an e-mail, some file server – or one of existing RGB-related protocols,
-like RGB-RPC, Storm (no Lightning network) or something else.
+can be an e-mail, some file server – or one of existing BTB-related protocols,
+like BTB-RPC, Storm (no Lightning network) or something else.
 
 Upon receiving the consignment Alice verifies and accepts it to her local
-**RGB stash** (which keeps information about all Alice contracts and owned
+**BTB stash** (which keeps information about all Alice contracts and owned
 state) with the following command:
 
 ```sh
-alice$ rgb accept consignment.rgb
+alice$ btb accept consignment.btb
 ```
 
 If the consignment was invalid, the command will fail and list all problems the
@@ -111,8 +111,8 @@ over the consignment, which Alice can send back to Bob as a form of payslip.
 Bob can now check Alice's signature, sign and publish his transaction:
 
 ```sh
-bob$ rgb check <sig> && wallet sign --publish tx.psbt
+bob$ btb check <sig> && wallet sign --publish tx.psbt
 ```
 
-Alice's RGB wallet will see the witness transaction mined, after which the
+Alice's BTB wallet will see the witness transaction mined, after which the
 new state will appear in her user interface.

@@ -1,28 +1,28 @@
 +++
-title = "RGB v0.10 becomes stable"
+title = "BTB v0.10 becomes stable"
 date = 2023-09-06
 authors = ["Maxim Orlovsky", "Olga Ukolova"]
-description = "RGB v0.10 becomes stable, bringing full power of smart contracts to Bitcoin & Lightning"
+description = "BTB v0.10 becomes stable, bringing full power of smart contracts to Bitcoin & Lightning"
 +++
 
-It's been 5 month since the first alpha of [RGB v0.10] - and today we are
-thrilled to make the stable release of the RGB command-line tool and runtime 
+It's been 5 month since the first alpha of [BTB v0.10] - and today we are
+thrilled to make the stable release of the BTB command-line tool and runtime 
 library for desktop and mobile integration.
 
 The library was extensively tested by several independent teams and powers
 three different wallets ([MyCitadel] on Desktop, [Iris] on Android, [BitMask] in
 Web); it also has stable results on end-to-end tests, including performing
 multiple complex transfers of multiple assets. Finally, wallet developers may
-use [BDK integration](https://github.com/RGB-Tools/) developed by Bitfinex team. 
+use [BDK integration](https://github.com/BTB-Tools/) developed by Bitfinex team. 
 
-You can read more about RGB v0.10 functionality in our [previous announcement][RGB v0.10].
+You can read more about BTB v0.10 functionality in our [previous announcement][BTB v0.10].
 Release notes and source code can be found at 
-<https://github.com/RGB-WG/rgb/releases/tag/v0.10.0>
+<https://github.com/BTB-WG/btb/releases/tag/v0.10.0>
 
 Contributors
 ------------
 
-We are grateful for everybody involved in stabilizing RGB, including teams
+We are grateful for everybody involved in stabilizing BTB, including teams
 from [LNP/BP Standards Association][lnpbp], [Pandora Prime][pandora],
 [Bitfinex] and [DIBA], as well as independent contributors.
 
@@ -43,7 +43,7 @@ from [LNP/BP Standards Association][lnpbp], [Pandora Prime][pandora],
 * [UkolovaOlga](https://github.com/UkolovaOlga)
 * [giacomozucco](https://github.com/giacomozucco)
 
-[RGB v0.10]: /blog/release-v0-10/
+[BTB v0.10]: /blog/release-v0-10/
 [MyCitadel]: https://mycitadel.io
 [Iris]: https://iriswallet.com
 [BitMask]: https://bitmask.app

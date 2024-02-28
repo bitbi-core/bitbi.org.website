@@ -1,22 +1,22 @@
 +++
-title = "RGB command-line tool"
+title = "BTB command-line tool"
 weight = 10
 [extra]
 anchor = "cmd"
 bg-color = "green"
 +++
 
-The main command-line tool to work with RGB smart contracts is `rgb`. It is written
+The main command-line tool to work with BTB smart contracts is `btb`. It is written
 in Rust programming language and is open-sourced under Apache 2.0 license.
-The tool provides complete RGB functionality locally, not requiring any node
+The tool provides complete BTB functionality locally, not requiring any node
 or server connection outside of Electrum server.
 
 You can install the tool from crates repository or build from sources, located
-on [GitHub](https://github.com/RGB-WG/rgb).
+on [GitHub](https://github.com/BTB-WG/btb).
 
 ### Prerequisites
 
-Before installing `rgb` in either way, you need to install components used in
+Before installing `btb` in either way, you need to install components used in
 its build process.
 
 First, you need to install [cargo](https://doc.rust-lang.org/cargo/).
@@ -41,24 +41,24 @@ Next, you need to install developer components, which are OS-specific:
 ### Installing from crates.io
 
 ```
-$ cargo install rgb-contracts --all-features
+$ cargo install btb-contracts --all-features
 ```
 
-Before the final RGB release it might be required to specify concrete 
+Before the final BTB release it might be required to specify concrete 
 pre-release version as an argument:
 
 ```
-$ cargo install rgb-contracts --all-features --version 0.10.0
+$ cargo install btb-contracts --all-features --version 0.10.0
 ```
 
 
 ### Building from source
 
 By building from the master tip you can get the latest nightly version of
-`rgb`. Otherwise, you can check [one of our release tags](https://github.com/RGB-WG/rgb/tags).
+`btb`. Otherwise, you can check [one of our release tags](https://github.com/BTB-WG/btb/tags).
 
 ```console
-$ git clone https://github.com/RGB-WG/rgb
-$ cd rgb
+$ git clone https://github.com/BTB-WG/btb
+$ cd btb
 $ cargo install --path . --all-features
 ```

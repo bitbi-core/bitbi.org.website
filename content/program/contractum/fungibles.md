@@ -81,8 +81,8 @@ assume we'd like to do an asset which can be issued by anybody in the world
 through burning equivalent amount of bitcoins. Such operation can't be a state
 transition, since we do not have a predefined set of single-use-seals to define
 a "rights of issue" for an open and unknown set of participants. We can't also
-do "multiple geneses", since each genesis will define a new RGB contract and
-the assets under different RGB contracts are not fungible. State extensions
+do "multiple geneses", since each genesis will define a new BTB contract and
+the assets under different BTB contracts are not fungible. State extensions
 were created exactly to address this issue. A contract using them may look in
 the following way:
 

@@ -7,7 +7,7 @@ multicolumn = true
 anchor = "components"
 +++
 
-In RGB, there is no such thing as "program a smart contract"; instead, contracts
+In BTB, there is no such thing as "program a smart contract"; instead, contracts
 themselves are issued with no code. This helps to simplify the life of asset 
 issuers and normies, who just need to issue a token, create their self-sovereign
 identity, run a DAO etc.
@@ -18,7 +18,7 @@ kept outside contracts, thanks to things called **schema** and **interface**.
 * ### Contract
 
     The contract is a contract genesis plus a history of operations on the
-    contract. Together they are used by RGB to compute a deterministic contract
+    contract. Together they are used by BTB to compute a deterministic contract
     state. To create a contract means to issue a contract genesis, which 
     requires no code at all. The Contract issuer just needs to pick a **schema**
     which has all features needed in a contract – and use it during the 
@@ -28,7 +28,7 @@ kept outside contracts, thanks to things called **schema** and **interface**.
 * ### Schema
 
     If you think in terms of object-oriented programming (OOP), a contract is
-    an *instance* of some *class*, and in RGB terms this *class* is named
+    an *instance* of some *class*, and in BTB terms this *class* is named
     **schema**. Schema contains all the contract business logic, scripts, 
     definitions of state types (owned and global), allowed operations, rules
     for validation, data type system etc. Schema by its nature is declarative,
@@ -44,4 +44,4 @@ kept outside contracts, thanks to things called **schema** and **interface**.
     If one can compare schema to a *class* in OOP, than **contract interface**
     should be compared to Java *interface* or Rust *trait*. As classes can
     implement interfaces in Java, or structs can implement traits in Rust,
-    in RGB schema can implement many interfaces.
+    in BTB schema can implement many interfaces.

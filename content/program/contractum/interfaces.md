@@ -6,7 +6,7 @@ bg-color = "purple"
 anchor = "interfaces"
 +++
 
-But how the wallet makes the sense of the contract? RGB contract can do a lot of things, and if schema developers would need to do a separate wallet for each schema the entrance threshold would be too high. To avoid such situation a concept of *contract interface* was created. A *contract interface* is a standard way communicating with RGB Node asking it for a semantically-meaningful state and creating operations. Such concept of interface is similar to the concept of ERC standards and ABI files in Ethereum world; the most common interfaces are called "RGBxx" and are defined as a separate LNP/BP standards.
+But how the wallet makes the sense of the contract? BTB contract can do a lot of things, and if schema developers would need to do a separate wallet for each schema the entrance threshold would be too high. To avoid such situation a concept of *contract interface* was created. A *contract interface* is a standard way communicating with BTB Node asking it for a semantically-meaningful state and creating operations. Such concept of interface is similar to the concept of ERC standards and ABI files in Ethereum world; the most common interfaces are called "RGBxx" and are defined as a separate LNP/BP standards.
 
 Here, instead of using existing interface standards we will create an interface for a generic fungible token from scratch to explain the way they work:
 
@@ -42,7 +42,7 @@ implement FungibleToken for DecentralizedIdentity
                -- also skip the declaration at whole
 ```
 
-RGB smart contract can implement multiple interfaces. In our case it would be
+BTB smart contract can implement multiple interfaces. In our case it would be
 desirable to expose the identity information as well:
 
 ```haskell

@@ -5,17 +5,17 @@ sort_by = "weight"
 
 Unlike in blockchain smart contract systems, where blockchain governance 
 severely affects contract governance (contract transactions can be rolled back),
-in RGB the client-side validation contracts are **immutable**, fully governed 
+in BTB the client-side validation contracts are **immutable**, fully governed 
 according to the terms specified by contract issuers in contract genesis & 
-schema and can't be changed/updated via changes to the RGB protocol stack.
+schema and can't be changed/updated via changes to the BTB protocol stack.
 
 ### Blockchain governance model
 ![Blockchain governance](governance-blockchain.png)
 
-### RGB governance model
-![RGB governance](governance-rgb.png)
+### BTB governance model
+![BTB governance](governance-btb.png)
 
-RGB is a stack of protocols abstracted into a layered design with different
+BTB is a stack of protocols abstracted into a layered design with different
 governance structures and update policies:
 
 ![Governance layers](governance-layers.svg)

@@ -2,14 +2,14 @@
 title = "Code contributors"
 +++
 
-RGB as a smart contract system was created in 2019-2023 by 
+BTB as a smart contract system was created in 2019-2023 by 
 [**Dr Maxim Orlovsky**][dr-orlovsky] at [LNP/BP Standards Association][LNP/BP],
 Switzerland. It has originated from an earlier prototypes and ideas on "colored
 coins on Lightning" by **Giacomo Zucco** (BHB Network) and **Peter Todd**, who
 proposed concepts of client-side-validation and single-use-seals. A lot of 
 review and design work was done by **Federico Tenga** (Bitfinex).
 
-Contributors to the current RGB codebase include (in alphabetic order):
+Contributors to the current BTB codebase include (in alphabetic order):
 * Martin Habovštiak
 * Francisco Calderon
 * Hunter Trujillo
@@ -21,7 +21,7 @@ Contributors to the current RGB codebase include (in alphabetic order):
 * Zoe Faltiba
 * [zkao](https://github.com/zkao)
 
-Following people has contributed into the discussions and RGB component design 
+Following people has contributed into the discussions and BTB component design 
 (in alphabetic order):
 
 * Alekos Fillini

@@ -31,10 +31,10 @@ amplify = "4.0.1"
 strict_encoding = "2.5.0"
 strict_types = "1.6.1"
 bp-core = "0.10.9"
-rgb-std = { version = "0.10.8", features = ["serde", "fs"] }
+btb-std = { version = "0.10.8", features = ["serde", "fs"] }
 serde = "1.0.152"
 serde_json = "1.0.93"
-rgb-schemata = "0.10.0"
+btb-schemata = "0.10.0"
 ```
 
 Then, in `src/main.rs`, write following codes:
@@ -76,7 +76,7 @@ impl ResolveHeight for DumbResolver {
 fn main() {
     let name = "Token";  // name of token
     let decimal = Precision::CentiMicro; // Decimal: 8
-    let desc = "RGB Token";  // token description
+    let desc = "BTB Token";  // token description
     let spec = DivisibleAssetSpec::with("RGB20", name, decimal, Some(desc)).unwrap();
     let terms = RicardianContract::default();
     let contract_data = ContractData { terms, media: None };
@@ -108,7 +108,7 @@ fn main() {
 
     let bindle = contract.bindle();
     eprintln!("{bindle}");
-    bindle.save("contracts/rgb20-token.contract.rgb")
+    bindle.save("contracts/rgb20-token.contract.btb")
         .expect("unable to save contract");
     fs::write("contracts/rgb20-token.contract.rgba", bindle.to_string())
         .expect("unable to save contract");
@@ -121,5 +121,5 @@ Save it, and execute `cargo run`, after that, contract file would save in
 description, beneficiary and supply by modifing corresponding variable's value,
 as well as contracts saving fold.
 
-Now, you can import the contract with `rgb import` command:
-`rgb import contracts/rgb20-token.contract.rgb`.
+Now, you can import the contract with `btb import` command:
+`btb import contracts/rgb20-token.contract.btb`.

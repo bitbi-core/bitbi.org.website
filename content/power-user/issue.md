@@ -52,18 +52,18 @@ As you can see, contract definition consists of:
 You compile the contract with the command
 
 ```sh
-$ rgb issue 4h3xkAmiRdQs2HwQmnFVqoj5DG3NhGkJRpNZXjNrJT2N RGB20 examples/rgb20-demo.yaml
+$ btb issue 4h3xkAmiRdQs2HwQmnFVqoj5DG3NhGkJRpNZXjNrJT2N RGB20 examples/rgb20-demo.yaml
 ```
 
-Here, we use a default schema for RGB20 assets, which is provided with RGB 
+Here, we use a default schema for RGB20 assets, which is provided with BTB 
 itself, but one may develop a custom schema as described in 
-[programming RGB](/program) part of this website. We also specify an interface
+[programming BTB](/program) part of this website. We also specify an interface
 (RGB20) and provide a YAML file to which we have saved our contract.
 
 The issued contract was added to the stash. You may see it by running
 
 ```sh
-$ rgb info
+$ btb info
 ```
 
 ```
@@ -77,7 +77,7 @@ RGB20 complex-field-union-DbwzvSu4BZU81jEpE9FVZ3xjcyuTKWWy2gmdnaxtACrS
 
 Contracts:
 ---------
-rgb:BasilYellowGrand0BgHH3yYaCUvaw5Tc8KfrVB1aWN4vBvCXCuMfK98N3o6Z
+btb:BasilYellowGrand0BgHH3yYaCUvaw5Tc8KfrVB1aWN4vBvCXCuMfK98N3o6Z
 ```
 
 To distribute contract to other users you have to export it in a form of
@@ -86,7 +86,7 @@ ASCII/Base64 armored text, such that it can be sent via messengers or by an
 e-mail (or even put into a dynamic QR code).
 
 ```sh
-$ rgb export -a BasilYellowGrand0BgHH3yYaCUvaw5Tc8KfrVB1aWN4vBvCXCuMfK98N3o6Z
+$ btb export -a BasilYellowGrand0BgHH3yYaCUvaw5Tc8KfrVB1aWN4vBvCXCuMfK98N3o6Z
 ```
 
 We provide an `-a` option before the contract id to use ASCII armoring. If we
@@ -94,7 +94,7 @@ do not provide a file name as a last argument, the contract is exported to
 the standard output of the terminal:
 
 ```
------ BEGIN RGB CONTRACT -----
+----- BEGIN BTB CONTRACT -----
 Id: BgHH3yYaCUvaw5Tc8KfrVB1aWN4vBvCXCuMfK98N3o6Z
 Checksum: basil-yellow-grand
 
@@ -147,5 +147,5 @@ k4G0iH28yGhPgwAAAgAAAQASAARURVNUClRlc3QgYXNzZXQACAEAAQACAAAAAQAAAQEAAwFiNVSs
 Hc0VSWwQWicELEOJIfKoKHNXm+iOdNfvVZo9kQAAAAA9qe0Y5e3D8QgAQHoQ81oAAHvqdgO4GMt1
 N/GyBwEZNIJHD4eLef1tItTO/SxpB6mwAAAAAAAAAAAAAAAAAAA=
 
------ END RGB CONTRACT -----
+----- END BTB CONTRACT -----
 ```

@@ -8,13 +8,13 @@ multicolumn = true
 
 * ### AluVM
     
-  Functional virtual machine used in RGB smart contracts and in lightning.
+  Functional virtual machine used in BTB smart contracts and in lightning.
 
   <a href="https://www.aluvm.org" class="button button-secondary" target="_blank">AluVM website</a>
   
 * ### Strict types
 
-  Data type system, "protocol buffers for functional programming", used in RGB.
+  Data type system, "protocol buffers for functional programming", used in BTB.
 
   <a href="https://www.strict-types.org" class="button button-secondary" target="_blank">Strict types website</a>
 

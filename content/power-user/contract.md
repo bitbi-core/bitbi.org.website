@@ -8,15 +8,15 @@ anchor = "contract"
 
 A contract is distributed as a package, named **contract consignment**.
 
-*Consignment* is a term in RGB denoting a package of client-side-validated
+*Consignment* is a term in BTB denoting a package of client-side-validated
 data passed between peers. Consignments may be of two different types:
 *contract consignments*, which distribute public contract information from a
 contract issuer to users, and *transfer consignments*, which are used for doing
 state transfers between contract users. In this chapter we will address the
 first type of consignments, leaving the second for a next chapter.
 
-RGB stores all data required for its operations in a storage called **stash**.
-Since RGB is not a blockchain-based smart contracts, the stash is not replicated
+BTB stores all data required for its operations in a storage called **stash**.
+Since BTB is not a blockchain-based smart contracts, the stash is not replicated
 to other peer machines and usually keeps the data which nobody else than you
 know or have access to (at least to some of those data). Thus, losing stash
 means loosing your assets and contract state, and it has to be backed up with
@@ -29,14 +29,14 @@ file – or an ASCII/Base64-armoded text (and example can be found it the
 ["issuing contract" section](/power-user/#issue)).
 
 ```sh
-$ rgb import contract.rgb
+$ btb import contract.btb
 ```
 
-To list contracts which are part of the stash you need to run `rgb` commands
-with no arguments provided (or `rgb info` as an alternative to this)
+To list contracts which are part of the stash you need to run `btb` commands
+with no arguments provided (or `btb info` as an alternative to this)
 
 ```sh
-$ rgb
+$ btb
 ```
 
 Which should output something like
@@ -52,7 +52,7 @@ RGB20 complex-field-union-DbwzvSu4BZU81jEpE9FVZ3xjcyuTKWWy2gmdnaxtACrS
 
 Contracts:
 ---------
-rgb:BasilYellowGrand0BgHH3yYaCUvaw5Tc8KfrVB1aWN4vBvCXCuMfK98N3o6Z
+btb:BasilYellowGrand0BgHH3yYaCUvaw5Tc8KfrVB1aWN4vBvCXCuMfK98N3o6Z
 ```
 
 Here you see your imported contract id, plus a schema, used by this contract
@@ -60,7 +60,7 @@ which implements RGB20 interface. Now, you can read the state of the contract
 through this interface:
 
 ```shell
-$ rgb state BasilYellowGrand0BgHH3yYaCUvaw5Tc8KfrVB1aWN4vBvCXCuMfK98N3o6Z RGB20
+$ btb state BasilYellowGrand0BgHH3yYaCUvaw5Tc8KfrVB1aWN4vBvCXCuMfK98N3o6Z RGB20
 ```
 
 ```

@@ -5,8 +5,8 @@ weight = 50
 bg-color = "purple"
 +++
 
-RGB command-line tool and RGB node are two main user-facing tools which can
-be used by power users of RGB on desktops and server-side. They are developed 
+BTB command-line tool and BTB node are two main user-facing tools which can
+be used by power users of BTB on desktops and server-side. They are developed 
 and maintained by the [LNP/BP Standards Association](LNP/BP), but it is advised
 that alternative implementations will be written by independent bodies. These
 implementations may be audited by the Association to ensure compatibility.

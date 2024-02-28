@@ -1,8 +1,8 @@
 +++
-title = "RGB documentation"
+title = "BTB documentation"
 sort_by = "weight"
 description = """
-Documentation on RGB: scalable & confidential smart contracts system for Bitcoin &
+Documentation on BTB: scalable & confidential smart contracts system for Bitcoin &
 lightning network.
 """
 +++

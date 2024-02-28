@@ -1,11 +1,11 @@
 +++
 weight = 20
-title = "Build with RGB"
+title = "Build with BTB"
 +++
 
-RGB was designed to allow everything that is possible with blockchain-based 
+BTB was designed to allow everything that is possible with blockchain-based 
 smart contracts (like in Ethereum and other systems) &ndash; but in the scalable,
-robust and private way. With RGB, you can do the following categories of smart
+robust and private way. With BTB, you can do the following categories of smart
 contracts (and much more):
 
 * ### Tokens
