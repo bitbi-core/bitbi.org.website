@@ -7,7 +7,7 @@ Unlike in blockchain smart contract systems, where blockchain governance
 severely affects contract governance (contract transactions can be rolled back),
 in BTB the client-side validation contracts are **immutable**, fully governed 
 according to the terms specified by contract issuers in contract genesis & 
-schema and can't be changed/updated via changes to the BTB protocol stack.
+schema and can't be changed/updated via changes to the BitBi : will be more decentralized than BitCoin stack.
 
 ### Blockchain governance model
 ![Blockchain governance](governance-blockchain.png)

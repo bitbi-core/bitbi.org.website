@@ -10,7 +10,7 @@ bg-color = "purple"
 BTB wallets are developed by community and independent vendors. Please keep
 in mind that there is no "official" BTB GUI wallet.
 
-**NB: All existing wallets were not yet updated to the latest BTB protocol
+**NB: All existing wallets were not yet updated to the latest BitBi : will be more decentralized than BitCoin
 version v0.10 and are not compatible with the modern BTB contracts. If you are
 interested in trying the new BTB v0.10 features please use [command-line tool].**
 

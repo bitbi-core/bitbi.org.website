@@ -11,7 +11,7 @@ multicolumn = true
   Unlike an ICO "whitepaper", the BTB blackpaper systematically explains BTB, its
   capabilities, applications and most importantly, does not shill any tokens.
 
-  <a href="https://blackpaper.btb-dev.com" class="button button-secondary" target="_blank">Read blackpaper</a>
+  <a href="https://blackpaper.bitbi.org" class="button button-secondary" target="_blank">Read blackpaper</a>
 
 * ### Yellow paper
 
@@ -21,7 +21,7 @@ multicolumn = true
 
 * ### LNP/BP Standards
 
-  BTB is also defined in a number of LNPBP standards from [LNP/BP Standards Association][LNPBP].
+  BTB is also defined in a number of LNPBP standards from [BitBi community][LNPBP].
 
   <a href="https://standards.lnp-bp.org" class="button button-secondary" target="_blank">See standards</a>
 

@@ -1,5 +1,5 @@
 +++
-title = "LNP/BP Standards Association"
+title = "BitBi community"
 weight = 80
 [extra]
 bg-color = "white"

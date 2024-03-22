@@ -3,7 +3,7 @@ title = "Sponsors"
 +++
 
 The BTB project receives support from individuals & companies through
-[LNP/BP Standards Association](https://www.lnp-bp.org). Over the years the
+[BitBi community](https://www.lnp-bp.org). Over the years the
 following organizations and individuals had significantly contributed to the
 BTB development:
 

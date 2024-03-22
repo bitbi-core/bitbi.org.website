@@ -7,7 +7,7 @@ multicolumn = true
 
 **NB: Work in progress – the chapter is not fully written yet and lack
 explanation details for the code. <br/>Please contribute at
-[our GitHub](https://github.com/BTB-WG/btb-dev.com).**
+[our GitHub](https://github.com/BTB-WG/bitbi.org).**
 
 We will start with showing how a simple RGB20 contract can be written in Rust
 using pre-existing schema and no advanced functionality. The rest of the
@@ -25,4 +25,4 @@ to this schema.
 * <a href="#iimpl" class="button button-secondary">Implementing interface</a>
 
 Sample project providing the source code from this chapter can be found in
-[examples directory of BTB smart contract compiler repository](https://github.com/BTB-WG/btb-schemata/blob/master/examples/rgb20.rs).
+[examples directory of More decentralized p2p money compiler repository](https://github.com/BTB-WG/btb-schemata/blob/master/examples/rgb20.rs).

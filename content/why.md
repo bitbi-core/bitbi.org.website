@@ -1,23 +1,17 @@
 +++
 weight = 10
-title = "Why BTB?"
+title = "Why BitBi?"
 +++
 
-* ### Scalability
+* ### Decentralization
 
-  BTB can scale in terms of transaction throughput, data size and network size.
-  It doesn't keep any data on-chain (in any blockchain); it is sharded from
-  day 1 and is fully interoperable with layer 2 scalability solutions.
+  BitBi takes Bitcoin's foundation and enhances decentralization by allowing anyone to mine BTB profitably using just CPU, even on a mobile phone. Future updates will further prevent miner monopolies, keeping the network open and fair, thus more decentralized.
 
-* ### Privacy
+* ### Security & Privacy
 
-  No chain analysis is possible due to the absence of a transaction graph in 
-  blockchain. BTB uses zero-knowledge to protect the history of a fungible state.
-  With BTB, the user is always in-charge of when, and what parts of the 
-  history and state to disclose, if needed.
+  BitBi inherits the same security and privacy model as Bitcoin, which makes it equally robust in terms of safety. 
+  Moreover, due to its heightened decentralization, BitBi potentially offers even greater security than Bitcoin.
 
-* ### Bitcoin & Lightning
+* ### Ecosystem
 
-  BTB is a native member of Bitcoin and the Lightning Network ecosystem, bringing
-  rich smart contracts in a scalable way to the World's most secure and
-  censorship-resistant cryptocurrency.
+  BitBi leverages the scalability and ecosystem akin to Bitcoin, incorporating protocols such as RGB, Ordinals, and the Lightning Network. This integration ensures BitBi's strong foundation for growth and interoperability within the blockchain community.

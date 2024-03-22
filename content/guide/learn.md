@@ -31,4 +31,4 @@ check the following resources:
 
 [FAQ]: https://rgbfaq.com
 [YouTube channel]: https://youtube.com/LNP-BP
-[BTB whitepaper]: https://blackpaper.btb-dev.com
+[BTB whitepaper]: https://blackpaper.bitbi.org

@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://btb-dev.com"
+base_url = "https://bitbi.org"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true

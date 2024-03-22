@@ -3,6 +3,6 @@ sort_by = "weight"
 description = "Scalable & confidential smart contracts for Bitcoin & Lightning"
 +++
 
-# BTB {#title}
+# BitBi {#title}
 
-<div class="subtitle">Post-blockchain smart contracts</div>
+<div class="subtitle">Will be more decentralized than Bitcoin</div>

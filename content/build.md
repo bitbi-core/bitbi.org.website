@@ -1,25 +1,18 @@
 +++
 weight = 20
-title = "Build with BTB"
+title = "The future with BitBi"
 +++
 
-BTB was designed to allow everything that is possible with blockchain-based 
-smart contracts (like in Ethereum and other systems) &ndash; but in the scalable,
-robust and private way. With BTB, you can do the following categories of smart
-contracts (and much more):
+BitBi is engineered to support all functionalities available on Bitcoin, while enhancing decentralization, robustness, privacy, and scalability.. With BitBi, you can do the following categories of possilities (and much more):
 
-* ### Tokens
+* ### Ordinals
 
-  From stablecoins and corporate shares to securities and application-specific tokens.
+  The Ordinals protocol introduces a way to inscribe arbitrary content, including images and texts, directly onto blockchain like bitcoin and BitBi. This inscribed data are often referred to as NFTs (non-fungible tokens).
 
-* ### NFTs
+* ### RGB Smart Contracts
 
-  Issue digital media (books, music, video, podcasts) and collectible items.
+  By supporting the RGB protocol, BitBi enables the creation of smart contracts ranging from stablecoins, DeFi, DAOs, and corporate shares, to NFTs, securities, and application-specific tokens.
 
-* ### DeFi
+* ### Lightning Network
 
-  Do a liquidity pool, AMM-based DEX, or a collateral-based algorithmic stable-coin.
-
-* ### DAOs
-
-  Run a decentralized autonomous organization with all required functionality.
+  The Lightning Network is a second-layer payment protocol that operates on top of a blockchain-based cryptocurrency like Bitcoin and BitBi. It is designed to enable faster and more cost-effective transactions.

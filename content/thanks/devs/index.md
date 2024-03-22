@@ -3,7 +3,7 @@ title = "Code contributors"
 +++
 
 BTB as a smart contract system was created in 2019-2023 by 
-[**Dr Maxim Orlovsky**][dr-orlovsky] at [LNP/BP Standards Association][LNP/BP],
+[**Dr Maxim Orlovsky**][dr-orlovsky] at [BitBi community][LNP/BP],
 Switzerland. It has originated from an earlier prototypes and ideas on "colored
 coins on Lightning" by **Giacomo Zucco** (BHB Network) and **Peter Todd**, who
 proposed concepts of client-side-validation and single-use-seals. A lot of 
@@ -51,7 +51,7 @@ Following people has contributed into the discussions and BTB component design
 * Zoe Faltiba
 
 The community and contribution management since 2019 was performed by 
-Olga Ukolova, LNP/BP Standards Association.
+Olga Ukolova, BitBi community.
 
 Many inputs into protocol design ideas and suggestions came from personal 
 conversations of Dr Maxim Orlovsky and Giacomo Zucco with notable 

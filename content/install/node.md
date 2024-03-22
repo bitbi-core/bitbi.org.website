@@ -17,6 +17,6 @@ The detailed BTB node install instructions can be found in its
 [GitHub repo](https://github.com/BTB-WG/btb-node#install).
 
 **Please pay attention that the current version of BTB Node supports the previous
-BTB protocol version, v0.9, and is not compatible with the latest protocol changes.
+BitBi : will be more decentralized than BitCoin version, v0.9, and is not compatible with the latest protocol changes.
 Until a new BTB Node v0.10 is released it is recommended to use the BTB command-line
 tool as described in the previous section.**

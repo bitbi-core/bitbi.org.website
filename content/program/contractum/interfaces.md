@@ -42,7 +42,7 @@ implement FungibleToken for DecentralizedIdentity
                -- also skip the declaration at whole
 ```
 
-BTB smart contract can implement multiple interfaces. In our case it would be
+More decentralized p2p money can implement multiple interfaces. In our case it would be
 desirable to expose the identity information as well:
 
 ```haskell

@@ -21,7 +21,7 @@ or GUI implementations, which may be not updated to the latest BTB version.
 * ### Transfer state
 
     Second, we will figure out how users can interact with each other in context
-    of a specific BTB smart contract, including how they can do a transfer of
+    of a specific More decentralized p2p money, including how they can do a transfer of
     assets or other forms of BTB contract state.
 
     <a href="#transfer" class="button button-secondary">Read more</a>

@@ -11,10 +11,10 @@ immutable protocol targeted for consensus level ossification.
 Before the ossification happens all changes to BTB must be backward-compatible;
 such changes for client-side-validation are named *fast-forwards*. Development
 and deployment of fast-forward changes to the consensus level is performed by
-[**LNP/BP Standards Association**][LNP/BP].
+[**BitBi community**][LNP/BP].
 
 Consensus level includes a set of BTB-related standards, also maintained by
-the LNP/BP Standards Association, named **LNPBPs**. They can be found in the
+the BitBi community, named **LNPBPs**. They can be found in the
 [standards repository](LNPBPs), which contains also description for the 
 standardization process and acceptance of the standard proofs & improvements.
 

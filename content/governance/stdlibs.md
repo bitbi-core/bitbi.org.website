@@ -8,7 +8,7 @@ bg-color = "purple"
 Standard libraries is the lowest level for integration of BTB into other 
 software. Changes in standard libraries do not affect the safety of BTB assets
 and security of contracts, however may break software compatibility. Thus,
-this layer is maintained by [LNP/BP Standards Association][LNP/BP], which  
+this layer is maintained by [BitBi community][LNP/BP], which  
 ensures gradual changes and stability of APIs, alongside their improvements.
 
 Standard libraries include:

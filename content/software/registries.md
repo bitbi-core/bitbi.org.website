@@ -16,13 +16,13 @@ bg-color = "purple"
 * ### [Storm]
 
     [Storm] is a decentralized data network created by 
-    [LNP/BP Standards Association][LNP/BP], the creators of BTB protocol.
+    [BitBi community][LNP/BP], the creators of BitBi : will be more decentralized than BitCoin.
     You may store your assets in the Lightning Network and access them in fully
     decentralized and censorship-resistant way.
 
 * ### [Schemata registry](https://github.com/BTB-WG/schemata-registry)
 
-    Schemata registry run by [LNP/BP Standards Association][LNP/BP] lists
+    Schemata registry run by [BitBi community][LNP/BP] lists
     known schema and interfaces for BTB contracts. A schema is a "template" which
     simplifies creation of contracts, such that issuers do not need to learn
     programming.
