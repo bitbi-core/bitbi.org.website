@@ -12,6 +12,6 @@ title = "Why BitBi?"
   BitBi inherits the same security and privacy model as Bitcoin, which makes it equally robust in terms of safety. 
   Moreover, due to its heightened decentralization, BitBi potentially offers even greater security than Bitcoin.
 
-* ### Ecosystem
+* ### Tokenism
 
-  BitBi leverages the scalability and ecosystem akin to Bitcoin, incorporating protocols such as RGB, Ordinals, and the Lightning Network. This integration ensures BitBi's strong foundation for growth and interoperability within the blockchain community.
+  No ICO, no premine, no airdrop. BitBi is a community-driven project with no centralized control. The only way to get BTB is to mine it or buy it from someone who has mined it.

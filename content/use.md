@@ -5,15 +5,15 @@ title = "Use BTB"
 
 * ### Hold assets
 
-  Install the walletand start using BTB assets.
+  Install the wallet and start using BTB assets.
 
-  <a href="/content/software#wallets" class="button button-secondary">Check wallets</a>
+  <a href="/software#wallets" class="button button-secondary">Check wallet</a>
 
 * ### Trade
 
-  It'll be soon for some exchanges to list BTB.
+  Currently, BTB is not officially listed on any exchanges. It's your risk to mine or buy BTB from someone who has mined it.
 
-  <a href="/content/software#exchanges" class="button button-secondary">Check exchanges</a>
+  <!-- <a href="/content/software#exchanges" class="button button-secondary">Check exchanges</a> -->
 <!-- 
 * ### Issue
 

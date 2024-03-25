@@ -5,4 +5,4 @@ description = "Scalable & confidential smart contracts for Bitcoin & Lightning"
 
 # BitBi {#title}
 
-<div class="subtitle">Will be more decentralized than Bitcoin</div>
+<div class="subtitle">Would be more decentralized than Bitcoin</div>
