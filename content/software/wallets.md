@@ -16,7 +16,7 @@ BTB wallets are developed by the community and independent vendors.
   blockchain. It is the most secure way to use BTB, but it requires a lot
   of storage space and bandwidth.
 
-  `bitbi-qt` is one program of bitbi core package,  You can download the package from the [Download Links](https://bitbi.org/static/download/bitbi/26.101.0/bitbi-26.101.0-x86_64-linux-gnu.tar.gz). 
+  `bitbi-qt` is one program of bitbi core package,  You can download the package from the [Download Links](/download/bitbi/26.101.0/bitbi-26.101.0-x86_64-linux-gnu.tar.gz). 
 
   
   If it is the first time you are using BTB, this is the wallet you should try. Remember to backup your wallet.dat file.

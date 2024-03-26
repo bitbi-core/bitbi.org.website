@@ -2,35 +2,29 @@
 title = "For developers"
 weight = 20
 [extra]
-multicolumn = true
+multicolumn = false
 +++
 
-If you are developer looking for creating new forms of BTB smart contracts or
-integrate BTB into your software, check out developer guidelines:
+If you are developer looking for integrating BTB into your project, or interacting with BitBi blockchain, this section is for you.
 
-* ### Writing contracts
-
-  Simple BTB contracts can be created in **Rust** (using handy macros). 
-  More advanced contracts will require writing code for **AluVM** in
-  **AluAssemblye** language. We also work on a new high-level language called
-  **Contractum**, with its first version release targeting end of the year.
-
-  <a href="/program" class="button button-secondary">Learn to program</a>
-
-* ### Integrating BTB
-
-  Want to let your users access BTB assets & smart contracts?
-  Integrating BTB is simple as using one of existing SDKs in your project and
-  working with JSON data structures. Check what libraries exists for BTB
-  integration today, provided by several independent teams and companies.
-
-  <a href="/integrate" class="button button-secondary">Integrate BTB</a>
-
-* ### Learn BTB
-
-  BTB is much more complex than simple bitcoin applications; to unlock its true
-  power in creating the world of Bitcoin Finance (#BiFi) it is important
-  to understand its terminology and internal architecture in details. A good
-  starting point can be through multiple BTB learning resources.
+* ### running BitBi node
   
-  <a href="/docs" class="button button-secondary">Access docs</a>
+    BitBi Node is a daemon/service which runs in the background, provides RPC API, serves as the backbone of the network.
+  
+    If you want to mine BTB, or running a service that interacts with the blockchain, you will need to install BitBi Node.
+    
+    <a href="/install#node" class="button button-secondary">Install BitBi Node</a>
+
+* ### interact with BitBi node
+  
+    For developers and users who already have a full BitBi node running, the best way to experience BitBi is to use `bitbi-cli` command-line tool. It is much like `bitcoin-cli` for Bitcoin. You can refer to [bitcoin documentation](https://developer.bitcoin.org/reference/rpc/index.html) for most of the commands.
+    
+    It allows you to interact with the network, create and manage assets, and more.
+    
+    <a href="/install#cmd" class="button button-secondary">Install BitBi command line</a>
+
+* ### Learn BitBi
+
+  BitBi is built upon the foundation of Bitcoin, prioritizing security, stability, and compatibility. It aims to maintain alignment with Bitcoin's established principles and practices, with minimal deviations to ensure a robust and reliable system. As a result, BitBi incorporates all the valuable aspects and knowledge of Bitcoin, except for the mining mechanism and PoW algorithm.
+
+  For comprehensive information about BitBi, you can refer to the Bitcoin Developer Documentation, which covers a wide range of relevant topics and details applicable to BitBi as well.

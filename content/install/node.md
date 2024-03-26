@@ -6,17 +6,13 @@ anchor = "node"
 bg-color = "red"
 +++
 
-BTB Node is a daemon/service which runs in the background, provides RPC API,
-and allows you to always be online and accept incoming BTB transfers without 
-any third-party server. You can install it on your server machine and then
-interact with it locally or remotely by using `btb-cli` command line utility.
-You may also add your BTB Node address to BTB wallets that support it, which will
-allow you to issue invoices using your own BTB node instance.
+Full BitBi Node is a daemon/service which runs in the background, provides RPC API, serves as the backbone of the network.
 
-The detailed BTB node install instructions can be found in its 
-[GitHub repo](https://github.com/BTB-WG/btb-node#install).
+### Installation
 
-**Please pay attention that the current version of BTB Node supports the previous
-BitBi : will be more decentralized than BitCoin version, v0.9, and is not compatible with the latest protocol changes.
-Until a new BTB Node v0.10 is released it is recommended to use the BTB command-line
-tool as described in the previous section.**
+BitBi node program is included in the BitBi Core software. You can download the software from the [Download Links](/download/bitbi/26.101.0/bitbi-26.101.0-x86_64-linux-gnu.tar.gz).
+
+After downloading the software, you need to extract the tarball and run the `./bin/bitbid` binary. The software will start syncing with the network and will download the blockchain data. This process can take a few hours to a few days depending on your internet connection speed.
+
+For more information about the node program, you can run `./bin/bitbid --help` to see the available options. Or you can visit [this page](/software/full-node) to get more information about the full node.
+

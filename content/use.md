@@ -7,7 +7,7 @@ title = "Use BTB"
 
   Install the wallet and start using BTB assets.
 
-  <a href="/software#wallets" class="button button-secondary">Check wallet</a>
+  <a href="/software/wallets" class="button button-secondary">Check wallet</a>
 
 * ### Trade
 
