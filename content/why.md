@@ -15,3 +15,4 @@ title = "Why BitBi?"
 * ### Tokenomics
 
   No ICO, no premine, no airdrop. BitBi is a community-driven project with no centralized control. The only way to get BTB is to mine it or buy it from someone who has mined it.
+  More details refers to [Bitbi Whitepaper](/whitepaper).

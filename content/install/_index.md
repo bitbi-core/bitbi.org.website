@@ -5,8 +5,12 @@ sort_by = "weight"
 multicolumn = true
 +++
 
-To try out BitBi you have to install the appropriate software. Depending
-on your use case you may need to install:
+To try out BitBi you have two options: 
+
+1. The hard way: you can download full node and miner seprarately, and configure them manually.
+2. The easy way: you can download a wallet that includes a full node and a miner.
+
+## The hard way
 
 * ### BitBi Command-line
 
@@ -25,11 +29,10 @@ on your use case you may need to install:
     
     <a href="/install#node" class="button button-secondary">Install BitBi Node</a>
 
-* ### Wallets
+## The easy way
 
-    Wallets provide graphical user interface for BTB. 
-    
-    If you plan to transact with BTB assets, the best way to start is to 
-    install the `bitbi-qt` program. It includes a wallet and a full node.
-    
-    <a href="/software/wallets" class="button button-secondary">Check Wallets</a>
+* ### Golden Wallet
+
+    Golden Wallet is an all-in-one wallet for your crypto needs. It includes a full BitBi node and a miner, so you can start mining BTB right away.
+
+    <a href="/install#golden-wallet" class="button button-secondary">Install Golden Wallet</a>
