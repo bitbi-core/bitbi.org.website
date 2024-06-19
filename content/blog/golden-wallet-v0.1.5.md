@@ -8,7 +8,7 @@ description = "All-in-one wallet for your crypto needs"
 
 We are thrilled to announce the release of Golden Wallet v0.1.5, a significant milestone in our journey to provide a comprehensive solution for personal Bitbi management. This version brings several enhancements and bug fixes, making your bitbi mining experience smoother and more secure.
 
-You can download the latest version of Golden Wallet from our official website [here](https://goldenwallet.io).
+You can download the latest version of Golden Wallet from our official website [here](https://github.com/bitbi-core/golden-wallet/releases).
 
 In the era of digital currencies, managing multiple cryptocurrencies can be a challenge. With Golden Wallet, we aim to simplify this process by offering an all-in-one wallet. This means you can mine and manage bitbi in one place, easy to use and secure.
 

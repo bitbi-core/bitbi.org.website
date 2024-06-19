@@ -62,3 +62,5 @@ The power of individual mining (decentralized mining) versus ASIC mining (centra
 The power of individual mining lies in enhancing decentralization, promoting economic inclusivity, fostering community engagement, and providing educational opportunities. These benefits help ensure that the blockchain network remains secure, resilient, and accessible to a broad range of participants.
 
 Conversely, ASIC mining by large companies(eg. Bitcoin mining) offers technological advancements, but comes with increased centralization risks and potential wealth concentration. Balancing these approaches is crucial for the healthy development and sustainability of the blockchain network and the broader cryptocurrency ecosystem.
+
+You can try to mine Bitbi with your personal computer using Golden Wallet, an all-in-one wallet that includes a full BTB node and a miner. Download the latest version of Golden Wallet from the [github release](https://github.com/bitbi-core/golden-wallet/releases).
