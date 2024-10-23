@@ -19,6 +19,8 @@ You can interact with the BTB wallets using different way. Here are the main opt
 
   On the first running, it will take a while to sync with the network, please be patient.
 
+  Golden Wallet now supports bridging BTB from the BitBi network to Ethereum as WBTB, allowing you to trade on Uniswap and interact with Ethereum DeFi ecosystems.
+
 * ### bitbi-qt
 
   The reference GUI wallet for BTB, currently only available for Linux.
