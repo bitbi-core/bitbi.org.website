@@ -1,7 +1,7 @@
 +++
 title = "Why BTB Has Potential for Significant Growth"
 date = 2024-12-30
-[taxonomies]
+authors = ["Imnotsatoshi"]
 tags = ["BTB", "Investment", "Analysis"]
 +++
 
