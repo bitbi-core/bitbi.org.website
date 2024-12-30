@@ -20,7 +20,7 @@ Additionally:
 
 ## How to run a full node?
 
-To run a full node, you need to install the BTB Core software. You can download the software from the [Download Links](/download/bitbi/26.101.0/bitbi-26.101.0-x86_64-linux-gnu.tar.gz).
+To run a full node, you need to install the BTB Core software. You can download the latest version from our [GitHub releases page](https://github.com/bitbi-core/bitbi/releases).
 
 After downloading the software, you need to extract the tarball and run the `./bin/bitbid` binary. The software will start syncing with the network and will download the blockchain data. This process can take a few hours to a few days depending on your internet connection speed. 
 

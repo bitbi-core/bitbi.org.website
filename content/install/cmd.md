@@ -10,7 +10,7 @@ BitBi command-line tool is a powerful utility for interacting with the BTB netwo
 
 ### Installation
 
-BitBi command-line tool is included in the BitBi Core software. You can download the software from the [Download Links](/download/bitbi/26.101.0/bitbi-26.101.0-x86_64-linux-gnu.tar.gz).
+BitBi command-line tool is included in the BitBi Core software. You can download the latest version from our [GitHub releases page](https://github.com/bitbi-core/bitbi/releases).
 
 After downloading the software, you need to extract the tarball and run the `./bin/bitbi-cli` binary. You'd better run the `bitbid` daemon first to provide the blockchain data.
 

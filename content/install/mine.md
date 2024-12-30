@@ -16,9 +16,9 @@ The BitBi mine software is compatible with Linux operating systems. It necessita
 
 ### Installation
 
-To download the mine software, click on this [Download Link](/download/miner/1.0.1/bitbi-miner.zip).
+To download the mine software, please visit our [GitHub releases page](https://github.com/bitbi-core/miner/releases).
 
-After the software is downloaded, extract the tarball and execute the `./mined` binary. Here's an example command to run the mine software:
+After downloading the software, extract the archive and execute the `./mined` binary. Here's an example command to run the mine software:
 
 ```bash
 ./minerd -o http://[rpcuser]:[rpcpassword]@127.0.0.1:9800 --coinbase-addr=[your reward receive address] --coinbase-sig=[any identifier] -t 1
